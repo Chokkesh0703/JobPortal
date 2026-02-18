@@ -40,7 +40,7 @@ export default function Navbar() {
               <NavbarActions />
             </div>
           </SheetClose>
-          <SheetClose>
+          <SheetClose asChild>
             <Link
               className="text-sm font-medium transition-colors hover:text-primary"
               href={"/"}
