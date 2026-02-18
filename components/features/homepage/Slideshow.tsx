@@ -33,12 +33,12 @@ const slides = [
 
 
 const Slideshow = () => {
-  const duplicatedSlides = [...slides, ...slides, ...slides];
+  const duplicatedSlides = [...slides, ...slides, ...slides, ...slides];
 
   return (
     <div className="relative w-full overflow-hidden bg-white py-10">
-      <div className="absolute inset-y-0 left-0 z-10 w-20 bg-gradient-to-r from-white to-transparent" />
-      <div className="absolute inset-y-0 right-0 z-10 w-20 bg-gradient-to-l from-white to-transparent" />
+      <div className="absolute inset-y-0 left-0 z-10 w-20 bg-gradient-to-r from-white dark:from-black to-transparent" />
+      <div className="absolute inset-y-0 right-0 z-10 w-20 bg-gradient-to-l from-white dark:from-black to-transparent" />
 
       <motion.div
         className="flex"
